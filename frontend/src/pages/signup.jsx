@@ -56,7 +56,8 @@ function Signup() {
         // }
     
 
-        const url = `http://localhost:8000/auth/signup`;
+        const url = `https://vibex-54tj.onrender.com/auth/signup`;
+        // const url = `http://localhost:8000/auth/signup`;
         const response = await axios.post(url, signupInfo, {
             headers: {
                 'Content-Type': 'application/json'

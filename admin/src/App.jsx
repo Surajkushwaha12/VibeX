@@ -9,7 +9,8 @@ import ListAlbum from './pages/ListAlbum/ListAlbum';
 import Sidebar from './components/Sidebar/Sidebar';
 import Navbar from './components/Navbar/Navbar';
 
-export const url = 'http://localhost:8000';
+export const url = 'https://vibex-54tj.onrender.com';
+// export const url = 'http://localhost:8000';
 
 const App = () => {
   return (
