@@ -31,8 +31,8 @@ const Display = () => {
   return (
     <div ref={displayRef} className='w-[100%] m-2 px-6 pt-4 rounded bg-[#121212] text-white overflow-auto lg:w-[75%] lg:ml-0'>
       <Routes>
-        {/* <Route path='/' element={<Navigate to= "/login" />} /> */}
-        <Route path='/' element={<DisplayHome />} />
+        <Route path='/' element={<Navigate to= "/login" />} />
+        <Route path='/home' element={<DisplayHome />} />
         <Route path='/album/:id' element={<DisplayAlbum album={albumsData.find((x) => (x._id == albumId))}/>} />
         <Route path='/login' element={<Login />} />
         <Route path='/signup' element={<Signup />} />
